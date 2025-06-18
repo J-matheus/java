@@ -1,11 +1,10 @@
 package fundamentos3;
 
-public class exercicio01 {
+public class substring {
 	public static void main(String[] args) {
-		String str = "hello";
-		String resultado = str.replace("l", "w");
+		String str = "Hello World";
+		
+		String resultado = str.substring(6);
 		System.out.println(resultado);
-				
 	}
-
 }

@@ -1,11 +1,10 @@
 package fundamentos3;
 
-public class exercicio01 {
+public class lower {
 	public static void main(String[] args) {
-		String str = "hello";
-		String resultado = str.replace("l", "w");
+		String str = "Hello";
+		String resultado = str.toLowerCase (); 
+		
 		System.out.println(resultado);
-				
 	}
-
 }
